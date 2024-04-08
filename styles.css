@@ -50,6 +50,7 @@ body {
   color: white;
 }
 .button {
+  text-decoration: none;
   letter-spacing: 1px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 15px;
