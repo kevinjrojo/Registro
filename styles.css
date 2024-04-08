@@ -13,8 +13,8 @@ body {
   text-align: center;
 }
 .target {
-  height: 70vh;
   padding-top: 10px;
+  padding-bottom: 20px;
   padding-left: 3%;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.336);
@@ -33,16 +33,20 @@ body {
   border-radius: 10px;
   background-color: white;
 }
+::placeholder {
+  padding-top: 10px;
+  color: rgba(0, 0, 0, 0.181);
+}
 .inputs-1 {
-  padding: 0xp;
+  padding-top: 10px;
   border: none;
   width: 95%;
-  height: 100px;
+  padding-bottom: 100px;
   border-radius: 10px;
   background-color: white;
 }
 .etiquetas {
-  margin-bottom: 0px;
+  margin-bottom: 3px;
   color: white;
 }
 .button {
